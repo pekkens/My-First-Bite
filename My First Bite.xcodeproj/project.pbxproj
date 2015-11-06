@@ -7,13 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C472D351BEC08C100D0EF1B /* CurrentFood02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C472D341BEC08C100D0EF1B /* CurrentFood02ViewController.swift */; };
 		7C74E7B71BE6BC760088807A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E7B61BE6BC760088807A /* AppDelegate.swift */; };
-		7C74E7B91BE6BC760088807A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E7B81BE6BC760088807A /* ViewController.swift */; };
-		7C74E7BC1BE6BC760088807A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C74E7BA1BE6BC760088807A /* Main.storyboard */; };
 		7C74E7BE1BE6BC760088807A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C74E7BD1BE6BC760088807A /* Assets.xcassets */; };
 		7C74E7C11BE6BC760088807A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C74E7BF1BE6BC760088807A /* LaunchScreen.storyboard */; };
 		7C74E7CC1BE6BC760088807A /* My_First_BiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E7CB1BE6BC760088807A /* My_First_BiteTests.swift */; };
 		7C74E7D71BE6BC760088807A /* My_First_BiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E7D61BE6BC760088807A /* My_First_BiteUITests.swift */; };
+		7C74E7E51BE6BD3A0088807A /* UIColor+AtFirstApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E7E41BE6BD3A0088807A /* UIColor+AtFirstApp.swift */; };
+		7C74E7E71BE6BD400088807A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E7E61BE6BD400088807A /* Common.swift */; };
+		7C74E7E91BE6BD490088807A /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E7E81BE6BD490088807A /* IntroViewController.swift */; };
+		7C74E7EB1BE6E84F0088807A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E7EA1BE6E84F0088807A /* SignInViewController.swift */; };
+		7C74E7ED1BE6EC830088807A /* NextResponderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E7EC1BE6EC830088807A /* NextResponderTextField.swift */; };
+		7C74E7F51BE713DB0088807A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E7F41BE713DB0088807A /* SignUpViewController.swift */; };
+		7C74E7F71BE726430088807A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E7F61BE726430088807A /* ForgotPasswordViewController.swift */; };
+		7C74E7FB1BE72B530088807A /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E7FA1BE72B530088807A /* OnBoardingViewController.swift */; };
+		7C74E8331BE775EC0088807A /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E8321BE775EC0088807A /* CreateProfileViewController.swift */; };
+		7C74E83B1BE9689F0088807A /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E83A1BE9689F0088807A /* CustomTabBarViewController.swift */; };
+		7C74E83D1BE96A8D0088807A /* CurrentFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74E83C1BE96A8D0088807A /* CurrentFoodViewController.swift */; };
+		7C9720DF1BEA08E900E81DA4 /* NewFoodSwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9720DE1BEA08E900E81DA4 /* NewFoodSwipeViewController.swift */; };
+		7C9720EF1BEA8E1900E81DA4 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9720E51BEA8E1900E81DA4 /* OpenSans-Bold.ttf */; };
+		7C9720F01BEA8E1900E81DA4 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9720E61BEA8E1900E81DA4 /* OpenSans-BoldItalic.ttf */; };
+		7C9720F11BEA8E1900E81DA4 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9720E71BEA8E1900E81DA4 /* OpenSans-ExtraBold.ttf */; };
+		7C9720F21BEA8E1900E81DA4 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9720E81BEA8E1900E81DA4 /* OpenSans-ExtraBoldItalic.ttf */; };
+		7C9720F31BEA8E1900E81DA4 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9720E91BEA8E1900E81DA4 /* OpenSans-Italic.ttf */; };
+		7C9720F41BEA8E1900E81DA4 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9720EA1BEA8E1900E81DA4 /* OpenSans-Light.ttf */; };
+		7C9720F51BEA8E1900E81DA4 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9720EB1BEA8E1900E81DA4 /* OpenSans-LightItalic.ttf */; };
+		7C9720F61BEA8E1900E81DA4 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9720EC1BEA8E1900E81DA4 /* OpenSans-Regular.ttf */; };
+		7C9720F71BEA8E1900E81DA4 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9720ED1BEA8E1900E81DA4 /* OpenSans-Semibold.ttf */; };
+		7C9720F81BEA8E1900E81DA4 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9720EE1BEA8E1900E81DA4 /* OpenSans-SemiboldItalic.ttf */; };
+		7C9720FC1BEA905500E81DA4 /* CenturyGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9720FB1BEA905500E81DA4 /* CenturyGothic.ttf */; };
+		7C97213A1BEB5FA200E81DA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9721391BEB5FA200E81DA4 /* Main.storyboard */; };
+		7C97213C1BEBCD4000E81DA4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C97213B1BEBCD4000E81DA4 /* SettingsViewController.swift */; };
+		7CC659B21BE970E700C3B48E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC659B11BE970E700C3B48E /* ProfileViewController.swift */; };
+		7CC659B61BE976C900C3B48E /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC659B51BE976C900C3B48E /* ReportViewController.swift */; };
+		7CC659B81BE9780200C3B48E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC659B71BE9780200C3B48E /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C472D341BEC08C100D0EF1B /* CurrentFood02ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentFood02ViewController.swift; sourceTree = "<group>"; };
 		7C74E7B31BE6BC760088807A /* My First Bite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My First Bite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C74E7B61BE6BC760088807A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C74E7B81BE6BC760088807A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C74E7BB1BE6BC760088807A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C74E7BD1BE6BC760088807A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C74E7C01BE6BC760088807A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C74E7C21BE6BC760088807A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +73,34 @@
 		7C74E7D21BE6BC760088807A /* My First BiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My First BiteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C74E7D61BE6BC760088807A /* My_First_BiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_First_BiteUITests.swift; sourceTree = "<group>"; };
 		7C74E7D81BE6BC760088807A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C74E7E41BE6BD3A0088807A /* UIColor+AtFirstApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AtFirstApp.swift"; sourceTree = "<group>"; };
+		7C74E7E61BE6BD400088807A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		7C74E7E81BE6BD490088807A /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		7C74E7EA1BE6E84F0088807A /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7C74E7EC1BE6EC830088807A /* NextResponderTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextResponderTextField.swift; sourceTree = "<group>"; };
+		7C74E7F41BE713DB0088807A /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7C74E7F61BE726430088807A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		7C74E7FA1BE72B530088807A /* OnBoardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		7C74E8321BE775EC0088807A /* CreateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		7C74E83A1BE9689F0088807A /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		7C74E83C1BE96A8D0088807A /* CurrentFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentFoodViewController.swift; path = ../CurrentFoodViewController.swift; sourceTree = "<group>"; };
+		7C9720DE1BEA08E900E81DA4 /* NewFoodSwipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFoodSwipeViewController.swift; sourceTree = "<group>"; };
+		7C9720E51BEA8E1900E81DA4 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		7C9720E61BEA8E1900E81DA4 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7C9720E71BEA8E1900E81DA4 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7C9720E81BEA8E1900E81DA4 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		7C9720E91BEA8E1900E81DA4 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		7C9720EA1BEA8E1900E81DA4 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		7C9720EB1BEA8E1900E81DA4 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		7C9720EC1BEA8E1900E81DA4 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		7C9720ED1BEA8E1900E81DA4 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		7C9720EE1BEA8E1900E81DA4 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		7C9720FB1BEA905500E81DA4 /* CenturyGothic.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CenturyGothic.ttf; sourceTree = "<group>"; };
+		7C9721391BEB5FA200E81DA4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7C97213B1BEBCD4000E81DA4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7CC659B11BE970E700C3B48E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
+		7CC659B51BE976C900C3B48E /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportViewController.swift; path = ../ReportViewController.swift; sourceTree = "<group>"; };
+		7CC659B71BE9780200C3B48E /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +151,26 @@
 		7C74E7B51BE6BC760088807A /* My First Bite */ = {
 			isa = PBXGroup;
 			children = (
+				7C9720E41BEA8C9700E81DA4 /* Resources */,
 				7C74E7B61BE6BC760088807A /* AppDelegate.swift */,
-				7C74E7B81BE6BC760088807A /* ViewController.swift */,
-				7C74E7BA1BE6BC760088807A /* Main.storyboard */,
+				7C74E7E61BE6BD400088807A /* Common.swift */,
+				7C74E7E41BE6BD3A0088807A /* UIColor+AtFirstApp.swift */,
+				7C74E7EC1BE6EC830088807A /* NextResponderTextField.swift */,
+				7C74E7E81BE6BD490088807A /* IntroViewController.swift */,
+				7C74E7EA1BE6E84F0088807A /* SignInViewController.swift */,
+				7C74E7F61BE726430088807A /* ForgotPasswordViewController.swift */,
+				7C74E83A1BE9689F0088807A /* CustomTabBarViewController.swift */,
+				7C74E7F41BE713DB0088807A /* SignUpViewController.swift */,
+				7C74E7FA1BE72B530088807A /* OnBoardingViewController.swift */,
+				7C74E8321BE775EC0088807A /* CreateProfileViewController.swift */,
+				7C74E83C1BE96A8D0088807A /* CurrentFoodViewController.swift */,
+				7C472D341BEC08C100D0EF1B /* CurrentFood02ViewController.swift */,
+				7CC659B71BE9780200C3B48E /* CameraViewController.swift */,
+				7CC659B11BE970E700C3B48E /* ProfileViewController.swift */,
+				7CC659B51BE976C900C3B48E /* ReportViewController.swift */,
+				7C9720DE1BEA08E900E81DA4 /* NewFoodSwipeViewController.swift */,
+				7C97213B1BEBCD4000E81DA4 /* SettingsViewController.swift */,
+				7C9721391BEB5FA200E81DA4 /* Main.storyboard */,
 				7C74E7BD1BE6BC760088807A /* Assets.xcassets */,
 				7C74E7BF1BE6BC760088807A /* LaunchScreen.storyboard */,
 				7C74E7C21BE6BC760088807A /* Info.plist */,
@@ -123,6 +194,24 @@
 				7C74E7D81BE6BC760088807A /* Info.plist */,
 			);
 			path = "My First BiteUITests";
+			sourceTree = "<group>";
+		};
+		7C9720E41BEA8C9700E81DA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C9720FB1BEA905500E81DA4 /* CenturyGothic.ttf */,
+				7C9720E51BEA8E1900E81DA4 /* OpenSans-Bold.ttf */,
+				7C9720E61BEA8E1900E81DA4 /* OpenSans-BoldItalic.ttf */,
+				7C9720E71BEA8E1900E81DA4 /* OpenSans-ExtraBold.ttf */,
+				7C9720E81BEA8E1900E81DA4 /* OpenSans-ExtraBoldItalic.ttf */,
+				7C9720E91BEA8E1900E81DA4 /* OpenSans-Italic.ttf */,
+				7C9720EA1BEA8E1900E81DA4 /* OpenSans-Light.ttf */,
+				7C9720EB1BEA8E1900E81DA4 /* OpenSans-LightItalic.ttf */,
+				7C9720EC1BEA8E1900E81DA4 /* OpenSans-Regular.ttf */,
+				7C9720ED1BEA8E1900E81DA4 /* OpenSans-Semibold.ttf */,
+				7C9720EE1BEA8E1900E81DA4 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +318,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9720F31BEA8E1900E81DA4 /* OpenSans-Italic.ttf in Resources */,
+				7C9720F01BEA8E1900E81DA4 /* OpenSans-BoldItalic.ttf in Resources */,
+				7C9720F71BEA8E1900E81DA4 /* OpenSans-Semibold.ttf in Resources */,
+				7C9720F11BEA8E1900E81DA4 /* OpenSans-ExtraBold.ttf in Resources */,
 				7C74E7C11BE6BC760088807A /* LaunchScreen.storyboard in Resources */,
+				7C9720F51BEA8E1900E81DA4 /* OpenSans-LightItalic.ttf in Resources */,
+				7C9720FC1BEA905500E81DA4 /* CenturyGothic.ttf in Resources */,
+				7C97213A1BEB5FA200E81DA4 /* Main.storyboard in Resources */,
+				7C9720EF1BEA8E1900E81DA4 /* OpenSans-Bold.ttf in Resources */,
 				7C74E7BE1BE6BC760088807A /* Assets.xcassets in Resources */,
-				7C74E7BC1BE6BC760088807A /* Main.storyboard in Resources */,
+				7C9720F81BEA8E1900E81DA4 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				7C9720F41BEA8E1900E81DA4 /* OpenSans-Light.ttf in Resources */,
+				7C9720F61BEA8E1900E81DA4 /* OpenSans-Regular.ttf in Resources */,
+				7C9720F21BEA8E1900E81DA4 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +356,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C74E7B91BE6BC760088807A /* ViewController.swift in Sources */,
+				7C472D351BEC08C100D0EF1B /* CurrentFood02ViewController.swift in Sources */,
+				7C74E7F71BE726430088807A /* ForgotPasswordViewController.swift in Sources */,
+				7C74E7E91BE6BD490088807A /* IntroViewController.swift in Sources */,
+				7C74E7F51BE713DB0088807A /* SignUpViewController.swift in Sources */,
+				7C74E7E71BE6BD400088807A /* Common.swift in Sources */,
+				7C74E7EB1BE6E84F0088807A /* SignInViewController.swift in Sources */,
+				7C74E83D1BE96A8D0088807A /* CurrentFoodViewController.swift in Sources */,
+				7CC659B61BE976C900C3B48E /* ReportViewController.swift in Sources */,
+				7C74E7E51BE6BD3A0088807A /* UIColor+AtFirstApp.swift in Sources */,
+				7C9720DF1BEA08E900E81DA4 /* NewFoodSwipeViewController.swift in Sources */,
 				7C74E7B71BE6BC760088807A /* AppDelegate.swift in Sources */,
+				7C74E7ED1BE6EC830088807A /* NextResponderTextField.swift in Sources */,
+				7C74E8331BE775EC0088807A /* CreateProfileViewController.swift in Sources */,
+				7C97213C1BEBCD4000E81DA4 /* SettingsViewController.swift in Sources */,
+				7CC659B81BE9780200C3B48E /* CameraViewController.swift in Sources */,
+				7CC659B21BE970E700C3B48E /* ProfileViewController.swift in Sources */,
+				7C74E7FB1BE72B530088807A /* OnBoardingViewController.swift in Sources */,
+				7C74E83B1BE9689F0088807A /* CustomTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +409,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7C74E7BA1BE6BC760088807A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C74E7BB1BE6BC760088807A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C74E7BF1BE6BC760088807A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -482,6 +590,7 @@
 				7C74E7DD1BE6BC760088807A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C74E7DE1BE6BC760088807A /* Build configuration list for PBXNativeTarget "My First BiteTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +599,7 @@
 				7C74E7E01BE6BC760088807A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C74E7E11BE6BC760088807A /* Build configuration list for PBXNativeTarget "My First BiteUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +608,7 @@
 				7C74E7E31BE6BC760088807A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
