@@ -4,7 +4,7 @@ An app for introducing solid food to babies
 
 Visual Walkthrough:
 
-![gratuityappvideo](https://cloud.githubusercontent.com/assets/9056938/8891673/48cae9d2-32e9-11e5-98a9-07877ff341f6.gif)
+![myfirstbite](https://cloud.githubusercontent.com/assets/9056938/11321212/e9b66f54-906a-11e5-85fb-32944b236690.gif)
 
 Spring Animation Library; Copyright (c) 2014-2015 Meng (https://github.com/MengTo/Spring)
 
