@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="EH3-3e-aJ6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Intro View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="IntroViewController" customModule="My_First_Bite" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GLh-J0-d91">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" id="ZTS-b2-ZS5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1400"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="introImageBkgd" id="ZFF-ay-Ywy">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1400"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introducing Food to Your Baby" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tjJ-is-aw0">
+                                        <rect key="frame" x="0.0" y="431" width="375" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                        <color key="textColor" red="0.57620000839999996" green="0.64498668910000001" blue="0.67000001669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="My First Bite-1" id="3W2-rR-1px">
+                                        <rect key="frame" x="87" y="378" width="200" height="66"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="splat04" id="n6v-K1-mqu">
+                                        <rect key="frame" x="-107" y="338" width="348" height="141"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="splat02" id="vnV-mQ-0eG">
+                                        <rect key="frame" x="161" y="371" width="216" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="splat01" id="vE9-SK-9EA">
+                                        <rect key="frame" x="136" y="348" width="126" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.20000000298023224" contentMode="center" image="bowlShadow" id="aGp-rd-wrE">
+                                        <rect key="frame" x="0.0" y="944" width="375" height="456"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="apple" id="5lz-9i-AXY">
+                                        <rect key="frame" x="0.0" y="956" width="375" height="198"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="yam" id="K1m-b5-NPU">
+                                        <rect key="frame" x="-10" y="820" width="320" height="222"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="strawberry" id="08T-ls-iwD">
+                                        <rect key="frame" x="4" y="891" width="368" height="168"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="avocado" id="yCz-fu-olE">
+                                        <rect key="frame" x="0.0" y="817" width="375" height="231"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="banana" id="6WH-Vi-gHF">
+                                        <rect key="frame" x="-1" y="807" width="364" height="242"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="blueberry01" id="buF-lb-BRv">
+                                        <rect key="frame" x="82" y="928" width="67" height="68"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="plum" id="R0P-J3-mZm">
+                                        <rect key="frame" x="60" y="935" width="375" height="136"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="carrot" id="N8x-xC-rEu">
+                                        <rect key="frame" x="-2" y="821" width="387" height="320"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="blueberry02" id="acU-O2-4wg">
+                                        <rect key="frame" x="222" y="980" width="72" height="49"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="pear" id="oLg-Vq-iB8">
+                                        <rect key="frame" x="136" y="932" width="316" height="220"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="orange" id="o1V-kM-ksm">
+                                        <rect key="frame" x="-16" y="977" width="365" height="194"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bowl" id="U2r-3m-Ytd">
+                                        <rect key="frame" x="0.0" y="197" width="375" height="1150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" id="Kj1-F4-Qkf">
+                                        <rect key="frame" x="25" y="1250" width="325" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cTG-yP-qgr">
+                                                <rect key="frame" x="0.0" y="0.0" width="325" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                                <state key="normal" title="I'm a Newbie">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.57620000839999996" green="0.64498668910000001" blue="0.67000001669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Bj4-pR-VHo">
+                                        <rect key="frame" x="25" y="1315" width="325" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Iou-nK-cg8">
+                                                <rect key="frame" x="0.0" y="0.0" width="325" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                                <state key="normal" title="Sign Me In">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.57620000839999996" green="0.64498668910000001" blue="0.67000001669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                                <animations/>
+                            </scrollView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3eQ-gx-KQc"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1400"/>
+                    <connections>
+                        <outlet property="apple" destination="5lz-9i-AXY" id="TMd-wB-tss"/>
+                        <outlet property="avocado" destination="yCz-fu-olE" id="olM-kx-jvS"/>
+                        <outlet property="banana" destination="6WH-Vi-gHF" id="Wc5-Du-GMf"/>
+                        <outlet property="blueberry01" destination="buF-lb-BRv" id="zv2-n6-iEc"/>
+                        <outlet property="blueberry02" destination="acU-O2-4wg" id="LTH-oz-72Z"/>
+                        <outlet property="carrot" destination="N8x-xC-rEu" id="Ogm-jk-iwZ"/>
+                        <outlet property="introImageBkdg" destination="ZFF-ay-Ywy" id="fi3-Fw-PmZ"/>
+                        <outlet property="introScroll" destination="ZTS-b2-ZS5" id="hdW-bx-d4L"/>
+                        <outlet property="orange" destination="o1V-kM-ksm" id="8mY-t0-3Ez"/>
+                        <outlet property="pear" destination="oLg-Vq-iB8" id="FxO-hZ-rgF"/>
+                        <outlet property="plum" destination="R0P-J3-mZm" id="Hy2-T8-wGM"/>
+                        <outlet property="spalt01" destination="vE9-SK-9EA" id="oAE-4a-cM9"/>
+                        <outlet property="spalt02" destination="vnV-mQ-0eG" id="Dj5-ag-Umv"/>
+                        <outlet property="spalt04" destination="n6v-K1-mqu" id="BAQ-X4-hVE"/>
+                        <outlet property="strawberry" destination="08T-ls-iwD" id="Ir5-PL-BuQ"/>
+                        <outlet property="yam" destination="K1m-b5-NPU" id="duh-wl-Iuq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="633.5" y="393"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Kiu-Lq-zS3">
+            <objects>
+                <viewController id="glm-6y-5pS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5S3-bR-a2H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="664"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="NM7-pX-MXm">
+                                <rect key="frame" x="25" y="570" width="325" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iUF-3n-HfX">
+                                        <rect key="frame" x="0.0" y="0.0" width="325" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                        <state key="normal" title="Sign Me In">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.57620000839999996" green="0.64498668910000001" blue="0.67000001669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="664"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zXJ-2g-Aqf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1060.5" y="27"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nM4-fk-12w">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="EH3-3e-aJ6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uOr-bX-8kD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bzi-hK-Rrn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AGm-Tv-wQq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.5" y="26.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="My First Bite-1" width="153" height="28"/>
+        <image name="apple" width="375" height="184"/>
+        <image name="avocado" width="375" height="231"/>
+        <image name="banana" width="375" height="234"/>
+        <image name="blueberry01" width="67" height="60"/>
+        <image name="blueberry02" width="72" height="71"/>
+        <image name="bowl" width="375" height="1150"/>
+        <image name="bowlShadow" width="375" height="456"/>
+        <image name="carrot" width="375" height="321"/>
+        <image name="introImageBkgd" width="375" height="1400"/>
+        <image name="orange" width="375" height="167"/>
+        <image name="pear" width="375" height="205"/>
+        <image name="plum" width="375" height="141"/>
+        <image name="splat01" width="126" height="104"/>
+        <image name="splat02" width="192" height="119"/>
+        <image name="splat04" width="375" height="214"/>
+        <image name="strawberry" width="375" height="196"/>
+        <image name="yam" width="375" height="202"/>
+    </resources>
+</document>

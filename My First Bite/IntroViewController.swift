@@ -27,7 +27,6 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var strawberry: UIImageView!
     @IBOutlet weak var yam: UIImageView!
     @IBOutlet weak var appTitleView: UIView!
-    @IBOutlet weak var splat07: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,9 +49,6 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
         let offset = CGFloat(introScroll.contentOffset.y)
         let alpha = convertValue(offset, r1Min: 0, r1Max: 300, r2Min:0, r2Max: 0)
         
-        //splats
-        
-        splat07.alpha = alpha
         
         //title
         

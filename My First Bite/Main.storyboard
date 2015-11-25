@@ -119,18 +119,13 @@
                                         <animations/>
                                         <color key="backgroundColor" red="0.96078431610000004" green="0.5176470876" blue="0.062745101750000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="splat07" id="Cn2-HJ-pSj">
-                                        <rect key="frame" x="1" y="304" width="375" height="119"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <animations/>
-                                    </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.20000000298023224" contentMode="center" image="bowlShadow" id="aGp-rd-wrE">
                                         <rect key="frame" x="1" y="961" width="375" height="456"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bowl" id="U2r-3m-Ytd">
-                                        <rect key="frame" x="1" y="214" width="375" height="1150"/>
+                                        <rect key="frame" x="1" y="213" width="375" height="1150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
@@ -185,7 +180,6 @@
                         <outlet property="orange" destination="o1V-kM-ksm" id="8mY-t0-3Ez"/>
                         <outlet property="pear" destination="oLg-Vq-iB8" id="FxO-hZ-rgF"/>
                         <outlet property="plum" destination="R0P-J3-mZm" id="Hy2-T8-wGM"/>
-                        <outlet property="splat07" destination="Cn2-HJ-pSj" id="HRJ-lw-oVQ"/>
                         <outlet property="strawberry" destination="08T-ls-iwD" id="Ir5-PL-BuQ"/>
                         <outlet property="yam" destination="K1m-b5-NPU" id="duh-wl-Iuq"/>
                         <segue destination="0Xc-zS-USC" kind="push" identifier="signInSeque" id="DTe-fN-wO5"/>
@@ -1950,15 +1944,14 @@
         <image name="push" width="282" height="184"/>
         <image name="sendBtn" width="36" height="37"/>
         <image name="settings" width="46" height="48"/>
-        <image name="splat07" width="375" height="119"/>
         <image name="strawberry" width="375" height="196"/>
         <image name="untensilCrossed" width="62" height="57"/>
         <image name="yam" width="375" height="202"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WEp-PR-q4K"/>
-        <segue reference="b1o-zX-JDl"/>
         <segue reference="PAX-1R-rkm"/>
+        <segue reference="BNd-lV-7uP"/>
+        <segue reference="WEp-PR-q4K"/>
         <segue reference="4ug-se-wJ9"/>
         <segue reference="HLb-YB-qv3"/>
     </inferredMetricsTieBreakers>
